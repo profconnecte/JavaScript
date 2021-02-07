@@ -1,0 +1,32 @@
+Exercice 1 : https://codepen.io/nicolaspatschkowski/pen/OJVOyXZ
+Faire F12 et aller dans console pour voir le résultat s'afficher dans la console
+
+    1) Récupérez l'élément ayant pour ID main-content grâce à son ID ;
+	
+let elt1 = document.getElementById("main-content");
+console.log(elt1);
+
+    2) Récupérez les éléments ayant pour classe  important  ;
+
+var elt1 = document.getElementsByClassName("important");
+for(let i =0 ; i < elt1.length; i++) {
+  console.log(elt1[i]);
+}
+
+    3) Récupérez les éléments de type  article  ;
+	
+var elt1 = document.getElementsByTagName("article");
+for(let i =0 ; i < elt1.length; i++) {
+  console.log(elt1[i]);
+}
+
+    4) Récupérez les éléments de type  li qui sont dans une liste ul ayant la classe  important . Cette liste doit elle-même être dans un article (article ) ;
+
+let listeEl = document.querySelectorAll("article > ul.important > li")
+console.log(listeEl);
+	
+
+    5) En reprenant le résultat de la tâche précédente, récupérez l'élément li suivant de la liste ul .
+
+let listeEl = document.querySelector("article > ul.important > li")
+console.log(listeEl.nextElementSibling);

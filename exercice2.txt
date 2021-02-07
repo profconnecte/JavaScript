@@ -1,0 +1,15 @@
+Exercice 2 : https://codepen.io/nicolaspatschkowski/pen/bGdYVmJ
+
+    1) Créez un nouvel élément de type paragraphe  p  ;
+
+
+    2) Ajoutez votre nouvel élément dans l'élément ayant pour id  main  ;
+
+
+    3) Ajoutez ce contenu HTML dans l'élément que vous avez créé lors de la première tâche :  Mon <strong>grand</strong> contenu  ;
+	
+
+    4) Ajoutez la classe important à l'élément que vous avez créé lors de la première tâche ;
+
+
+    5) Votre élément est maintenant rouge, mais on voudrait qu'il soit vert. Modifiez les styles de votre élément (en JavaScript) pour qu'il soit vert.
