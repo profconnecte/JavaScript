@@ -1,4 +1,13 @@
-Exercice 3 : https://codepen.io/nicolaspatschkowski/pen/yLNvXMx
+Exercice 3 : 
+Se rendre sur le lien suivant : https://codepen.io/nicolaspatschkowski/pen/yLNvXMx
+
+Appuyer sur la touche F12 pour ouvrir la console du navigateur
+Aller dans l'onglet console
+ajouter: console.log(element-a-afficher); pour voir le résultat dans la console et donc si vous avez bien récupérer l'élément demandé
+exemple: 
+let elt1 = document.getElementById("monId");
+console.log(elt1);
+pour récupérer l'élément qui à l'ID "monId" et l'afficher dans la console
 
     1) Commencez par écouter les événements click depuis l'élément #parent. Puis affichez le nombre de clics dans l'élément #parent-count.
 

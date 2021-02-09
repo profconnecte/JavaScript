@@ -1,4 +1,14 @@
-Exercice 1 : https://codepen.io/nicolaspatschkowski/pen/OJVOyXZ
+Exercice 1 : 
+Se rendre sur le lien suivant : https://codepen.io/nicolaspatschkowski/pen/OJVOyXZ
+Appuyer sur la touche F12 pour ouvrir la console du navigateur
+Aller dans l'onglet console
+ajouter: console.log(element-a-afficher); pour voir le résultat dans la console et donc si vous avez bien récupérer l'élément demandé
+exemple: 
+let elt1 = document.getElementById("monId");
+console.log(elt1);
+pour récupérer l'élément qui à l'ID "monId" et l'afficher dans la console
+
+Donner les réponses aux consignes suivantes:
 
     1) Récupérez l'élément ayant pour ID main-content grâce à son ID ;
 

@@ -1,4 +1,14 @@
-Exercice 2 : https://codepen.io/nicolaspatschkowski/pen/bGdYVmJ
+Exercice 2 :
+Se rendre sur le lien suivant : https://codepen.io/nicolaspatschkowski/pen/bGdYVmJ
+
+Appuyer sur la touche F12 pour ouvrir la console du navigateur
+Aller dans l'onglet console
+ajouter: console.log(element-a-afficher); pour voir le résultat dans la console et donc si vous avez bien récupérer l'élément demandé
+exemple: 
+let elt1 = document.getElementById("monId");
+console.log(elt1);
+pour récupérer l'élément qui à l'ID "monId" et l'afficher dans la console
+
 
     1) Créez un nouvel élément de type paragraphe  p  ;
 
