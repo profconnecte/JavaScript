@@ -23,3 +23,5 @@ pour récupérer l'élément qui à l'ID "monId" et l'afficher dans la console
 
 
     5) Votre élément est maintenant rouge, mais on voudrait qu'il soit vert. Modifiez les styles de votre élément (en JavaScript) pour qu'il soit vert.
+
+    6) Utiliser le Javascript pour ne pas afficher à l'écran le paragraphe que vous venez de créer.

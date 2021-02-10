@@ -33,3 +33,13 @@ elt.appendChild(newElt);
 elt.innerHTML = "Mon <strong>grand</strong> contenu";
 elt.setAttribute("class","important")
 elt.style.color="green";
+
+6) Utiliser le Javascript pour ne pas afficher à l'écran le paragraphe que vous venez de créer.
+
+const newElt = document.createElement("p");
+let elt = document.getElementById("main");
+elt.appendChild(newElt);
+elt.innerHTML = "Mon <strong>grand</strong> contenu";
+elt.setAttribute("class","important")
+elt.style.color="green";
+elt.style.display="none";
